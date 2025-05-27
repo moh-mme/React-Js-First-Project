@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #edede9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contaner {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  padding: 0;
+  margin: 0;
+  color: #283618;
+  font-family: "Zain", sans-serif;
+}

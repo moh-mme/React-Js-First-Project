@@ -1,0 +1,17 @@
+.user {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-border {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.user img {
+  width: 35px;
+  height: 35px;
+}

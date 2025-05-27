@@ -1,0 +1,49 @@
+.navigation {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: #f5ebe0;
+}
+.nav-list {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-list li {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-list li a {
+  position: relative;
+  text-decoration: none;
+  color: #003049;
+  transition: color 0.3s ease;
+}
+.nav-list li a:hover {
+  color: #61dafb;
+}
+
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: #00000080;
+  transition: width 0.3s ease;
+}
+
+.nav-list li a:hover::after {
+  width: 100%;
+}
